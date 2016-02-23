@@ -21,6 +21,11 @@
 		<dependency name="liferay-faces-util" org="com.liferay.faces" rev="4.2.5-ga6" />
 		<dependency org="org.springframework" name="spring-web" rev="4.2.4.RELEASE"/>
 		
+		<dependency org="com.zaxxer" name="HikariCP" rev="2.4.3"/>
+		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="5.1.0.Final"/>
+		<dependency org="org.springframework.data" name="spring-data-jpa" rev="1.9.2.RELEASE"/>
+		
+		
 		<dependency conf="test->default" name="arquillian-junit-container" org="org.jboss.arquillian.junit" rev="1.1.6.Final" />
 		<dependency conf="test->default" name="arquillian-tomcat-remote-7" org="org.jboss.arquillian.container" rev="1.0.0.CR6" />
 		<dependency conf="test->default" name="com.liferay.ant.arquillian" org="com.liferay" rev="1.0.0-SNAPSHOT" />
